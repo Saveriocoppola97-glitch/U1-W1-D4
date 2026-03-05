@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(sfondo.png);
-  width: 27vh;
+  width: 35vh;
   text-align: center;
   margin: 1em auto;
 }
@@ -46,4 +46,12 @@ ul {
   margin: 1em auto;
 }
 main {
+  margin: 1em auto;
+  background-color: white;
+  text-align: start;
+  padding: 1.2em;
+}
+h2 {
+  font-size: 1.8em;
+  line-height: 1.2em;
 }
