@@ -108,7 +108,7 @@
           <td>20%</td>
           <td>17%</td>
         </tr>
-        <tr>
+        <tr class="tr-2">
           <td>2002</td>
           <td>35%</td>
           <td>22%</td>
@@ -118,7 +118,7 @@
           <td>45%</td>
           <td>42%</td>
         </tr>
-        <tr>
+        <tr class="tr-2">
           <td>2008</td>
           <td>80%</td>
           <td>51%</td>
@@ -129,7 +129,7 @@
           <td>76%</td>
         </tr>
       </table>
-      <p>
+      <p id="test">
         Un test di validazione potrà essere fatto tramite il
         <a href="tool-online">Tool online</a> dedicato allo scopo. Una volta
         ottimizzato il tutto, avremo raggiunto il nostro obbiettivo ad essere
@@ -151,27 +151,40 @@
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
-      <h2>Novità</h2>
-      <p>
-        Vuoi rimanere aggiornato su altre novità? Iscriviti alla nostra
-        newsletter
-      </p>
-      <form>
-        <label for="email">Email </label>
-        <input id="email" type="email" placeholder="Email" required />
-        <button>Iscriviti</button>
-      </form>
-      <h2>Articoli correlati</h2>
-      <a href="Validare">Validare il codice HTML</a>
-      <p>Categoria: Develop</p>
-      <p>Data 18-9-2020</p>
-      <a href="Validare">Correggere la sintassi</a>
-      <p>Categoria: Develop</p>
-      <p>Data 16-9-2020</p>
-      <a href="Validare">Meno Kb nella pagina</a>
-      <p>Categoria: Develop</p>
-      <p>Data 30-9-2020</p>
-      <hr />
+      <div>
+        <h2 id="novità">Novità</h2>
+        <p>
+          Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+          nostra newsletter:
+        </p>
+        <form>
+          <label for="email"></label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Inserisci l'Email"
+            required
+          />
+          <button>Iscriviti</button>
+        </form>
+      </div>
+      <h2 id="h2">Articoli correlati</h2>
+      <div class="link">
+        <a href="Validare">Validare il codice HTML</a>
+        <p><i class="fas fa-tag"></i>Categoria: Develop</p>
+        <p class="date"><i class="fas fa-calendar-alt"></i>Data 18-9-2020</p>
+      </div>
+      <div class="link">
+        <a href="Validare">Correggere la sintassi</a>
+        <p><i class="fas fa-tag"></i>Categoria: Develop</p>
+        <p class="date"><i class="fas fa-calendar-alt"></i>Data 16-9-2020</p>
+        </div>
+      </div>
+      <div class="link">
+        <a href="Validare">Meno Kb nella pagina</a>
+        <p><i class="fas fa-tag"></i>Categoria: Develop</p>
+        <p class="date"><i class="fas fa-calendar-alt"></i>Data 30-9-2020</p>
+      </div>
     </main>
     <footer>
       <p>Blog Epicode ©2023</p>

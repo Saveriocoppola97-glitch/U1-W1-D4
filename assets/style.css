@@ -5,17 +5,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(sfondo.png);
+  background-position: center;
   width: 35vh;
   text-align: center;
   margin: 1em auto;
 }
 header {
-  height: 13em;
   padding: 0.5em;
   background-color: #026d88;
   background: linear-gradient(
-    302deg,
-    rgba(3, 109, 136, 1) 53%,
+    350deg,
+    rgba(2, 121, 151, 0.975) 53%,
     rgba(0, 136, 166, 1) 83%
   );
 }
@@ -28,7 +28,7 @@ iframe {
 }
 figcaption {
   color: white;
-  margin: 1em auto;
+  margin: 0.2em auto;
 }
 li > a {
   color: white;
@@ -110,4 +110,56 @@ th {
 }
 tr {
   height: 3em;
+}
+table {
+  border-bottom: 2px solid #3063cb;
+}
+td {
+  line-height: 2.7em;
+  text-align: center;
+}
+#test {
+  margin-top: 2em;
+}
+iframe {
+  margin: 1.5em auto;
+  border-radius: 10px;
+}
+.tr-2 {
+  background-color: #f1f1f1;
+}
+#novità {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+}
+div {
+  padding: 1em;
+  background-color: #e1e0e2;
+}
+form {
+  margin-top: 1em;
+}
+button {
+  background-color: #3164cb;
+  color: white;
+}
+#email {
+  border-bottom: 2px dashed black;
+}
+#h2 {
+  text-align: center;
+  margin: 1em;
+}
+.link {
+  margin: 1em;
+  height: 4.5em;
+}
+.date {
+  text-align: end;
+  margin: 1.3em 0;
+}
+div p {
+  margin-top: 0.3em;
 }
