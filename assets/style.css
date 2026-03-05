@@ -38,7 +38,7 @@ li {
   margin: 0.3em auto;
   line-height: 0.5em;
 }
-i {
+header i {
   color: white;
   margin: auto 0.5em;
 }
@@ -51,7 +51,60 @@ main {
   text-align: start;
   padding: 1.2em;
 }
-h2 {
+h1 {
   font-size: 1.8em;
   line-height: 1.2em;
+  margin-bottom: 0.5em;
+}
+#mario-rossi {
+  display: inline;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.216);
+}
+
+#desc {
+  line-height: 1.2em;
+  margin: 1em auto;
+  margin-top: 2em;
+}
+
+ul li {
+  line-height: 1.3em;
+}
+#list-2 {
+  list-style-type: disc;
+  margin: 1.5em;
+}
+ul span {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+h2 {
+  font-size: 1.5em;
+}
+p {
+  line-height: 1.2em;
+}
+#CSS {
+  color: #b4336e;
+}
+#list-3 {
+  list-style-type: decimal;
+  margin: 1.5em;
+}
+#list-3 li {
+  line-height: 1.3em;
+}
+caption {
+  font-weight: bold;
+}
+#tr {
+  height: 3em;
+  background-color: #4774ce;
+}
+th {
+  padding: 1.6em;
+  color: white;
+  border-right: 1px solid white;
 }
