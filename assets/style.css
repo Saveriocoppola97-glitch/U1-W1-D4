@@ -12,10 +12,11 @@ body {
 }
 header {
   padding: 0.5em;
+  box-shadow: 1px 1px 1px 1px;
   background-color: #026d88;
   background: linear-gradient(
     350deg,
-    rgba(2, 121, 151, 0.975) 53%,
+    rgba(3, 109, 136, 0.975) 53%,
     rgba(0, 136, 166, 1) 83%
   );
 }
@@ -28,7 +29,7 @@ iframe {
 }
 figcaption {
   color: white;
-  margin: 0.2em auto;
+  margin: 1em auto;
 }
 li > a {
   color: white;
@@ -50,6 +51,7 @@ main {
   background-color: white;
   text-align: start;
   padding: 1.2em;
+  box-shadow: 1px 1px 1px 1px;
 }
 h1 {
   font-size: 1.8em;
@@ -162,4 +164,9 @@ button {
 }
 div p {
   margin-top: 0.3em;
+}
+footer {
+  background-color: #035367;
+  padding: 1em;
+  box-shadow: 1px 1px 1px 1px;
 }
