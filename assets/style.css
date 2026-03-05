@@ -108,3 +108,6 @@ th {
   color: white;
   border-right: 1px solid white;
 }
+tr {
+  height: 3em;
+}
