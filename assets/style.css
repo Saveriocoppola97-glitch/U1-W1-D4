@@ -1,0 +1,49 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(sfondo.png);
+  width: 27vh;
+  text-align: center;
+  margin: 1em auto;
+}
+header {
+  height: 13em;
+  padding: 0.5em;
+  background-color: #026d88;
+  background: linear-gradient(
+    302deg,
+    rgba(3, 109, 136, 1) 53%,
+    rgba(0, 136, 166, 1) 83%
+  );
+}
+iframe {
+  width: 100%;
+}
+#logo-epicode {
+  width: 17vh;
+  margin: 1em 0;
+}
+figcaption {
+  color: white;
+  margin: 1em auto;
+}
+li > a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  margin: 0.3em auto;
+  line-height: 0.5em;
+}
+i {
+  color: white;
+  margin: auto 0.5em;
+}
+ul {
+  margin: 1em auto;
+}
+main {
+}
